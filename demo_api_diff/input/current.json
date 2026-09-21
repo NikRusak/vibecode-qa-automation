@@ -1,0 +1,11 @@
+{
+  "id": "usr_12345",
+  "name": "John Smith",
+  "email": "john.smith@company.com",
+  "role": "admin",
+  "settings": {
+    "theme": "dark",
+    "notifications": true
+  },
+  "last_login": "2026-09-14T10:30:00Z"
+}

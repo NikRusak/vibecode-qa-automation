@@ -1,0 +1,27 @@
+PRODUCT MANAGER: Hey, so we need to build out the Promo Code feature for Q4. Before we dive in, did you see how crazy the weather is today?
+
+DEVELOPER: Yeah, I got drenched walking in. Anyway, let me grab some coffee first. So what are the specs?
+
+PRODUCT MANAGER: Right. So basically, customers can enter a promo code at checkout. Oh, have you tried the new oat milk in the break room? It's actually pretty good.
+
+DEVELOPER: Sounds interesting. So what's the format for these codes? Any restrictions?
+
+PRODUCT MANAGER: Good question. The codes need to be exactly 8 uppercase letters. No numbers, no special characters. That keeps things clean and easy to read.
+
+DEVELOPER: Got it. 8 uppercase letters. Makes sense. What about the discount logic?
+
+PRODUCT MANAGER: Well, here's the interesting part. If a customer's cart is over $50, they get a 20% discount when they apply a promo code. Otherwise, no discount applies.
+
+DEVELOPER: Okay, so it's conditional. Only applies for carts over $50. Anything else I should know?
+
+PRODUCT MANAGER: Actually yes. How's your coffee? Mine is cold already. Anyway, the codes should automatically expire after 30 days. So we need an expiration date field in the database.
+
+DEVELOPER: 30 days expiration - that's pretty standard. Should I add logging for when codes expire or get used?
+
+PRODUCT MANAGER: Definitely log the usage. Oh, and one more thing - I heard Marketing wants to run a campaign next month. We should be ready by then.
+
+DEVELOPER: Noted. So to recap: 8 uppercase letters, 20% off for carts over $50, and 30-day expiration. I'll get started on the schema and business logic.
+
+PRODUCT MANAGER: Perfect. Let me know if you hit any blockers. Want to grab lunch later? I'm thinking that new taco truck downtown.
+
+DEVELOPER: Maybe. Let me start coding this up first. I'll ping you with questions.

@@ -1,0 +1,11 @@
+{
+  "id": "usr_12345",
+  "name": "John Smith",
+  "email": "john.smith@example.com",
+  "role": "user",
+  "settings": {
+    "theme": "light",
+    "notifications": true,
+    "language": "en"
+  }
+}

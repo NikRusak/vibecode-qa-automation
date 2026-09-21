@@ -1,0 +1,32 @@
+Authentication and Password Requirements Specification
+========================================================
+
+1. Password Minimum Length: Passwords must be at least 8 characters long to ensure basic security standards.
+
+2. Password Complexity: Passwords must contain at least one uppercase letter, one lowercase letter, one digit, and one special character (!@#$%^&*).
+
+3. Account Lockout Policy: After 3 consecutive failed login attempts, the account will be locked for 15 minutes to prevent brute force attacks.
+
+4. Multi-Factor Authentication (MFA): All accounts must support optional MFA via TOTP (Time-based One-Time Password) or SMS codes.
+
+5. Session Timeout: User sessions expire after 30 minutes of inactivity for security purposes.
+
+6. Password Expiration: User passwords must be changed every 90 days. Users will receive a reminder 7 days before expiration.
+
+7. Password History: The system must prevent users from reusing the last 5 passwords they have used.
+
+8. Login Rate Limiting: API login endpoints must enforce rate limiting of maximum 10 failed login attempts per IP address per hour.
+
+9. Username Requirements: Usernames must be between 4 and 20 characters, alphanumeric with optional underscores, and must be unique in the system.
+
+10. Email Verification: New accounts require email verification via a confirmation link sent within 24 hours of registration.
+
+11. Password Reset: Users can reset their password via email link. Reset links expire after 1 hour.
+
+12. Secure Password Storage: All passwords must be hashed using bcrypt with a salt cost factor of at least 12.
+
+13. Login Audit Logging: All login attempts (successful and failed) must be logged with timestamp, IP address, and user agent.
+
+14. Single Sign-On (SSO) Integration: System must support OAuth 2.0 integration with Google and Microsoft for enterprise users.
+
+15. Account Deactivation: Users can deactivate their own accounts. Deactivated accounts cannot login and all sessions are terminated immediately.

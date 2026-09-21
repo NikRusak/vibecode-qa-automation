@@ -1,0 +1,16 @@
+id,first_name,last_name,email,phone_number,registration_date
+1,Alice,Johnson,alice.johnson@email.com,+1-555-0101,2024-01-15
+2,Robert,Williams,robert.williams@email.com,+1-555-0102,2024-01-16
+3,Maria,Brown,maria.brown@email.com,+1-555-0103,2024-01-17
+4,James,Jones,james.jones@email.com,+1-555-0104,2024-01-18
+5,Patricia,Garcia,patricia.garcia@email.com,+1-555-0105,2024-01-19
+6,Michael,Miller,michael.miller@email.com,+1-555-0106,2024-01-20
+7,Linda,Davis,linda.davis@email.com,+1-555-0107,2024-01-21
+8,David,Rodriguez,david.rodriguez@email.com,+1-555-0108,2024-01-22
+9,Barbara,Martinez,barbara.martinez@email.com,+1-555-0109,2024-01-23
+10,Richard,Hernandez,richard.hernandez@email.com,+1-555-0110,2024-01-24
+11,Susan,Lopez,susan.lopez@email.com,+1-555-0111,2024-01-25
+12,Joseph,Gonzalez,joseph.gonzalez@email.com,+1-555-0112,2024-01-26
+13,Jessica,Wilson,jessica.wilson@email.com,+1-555-0113,2024-01-27
+14,Thomas,Anderson,thomas.anderson@email.com,+1-555-0114,2024-01-28
+15,Jennifer,Taylor,jennifer.taylor@email.com,+1-555-0115,2024-01-29

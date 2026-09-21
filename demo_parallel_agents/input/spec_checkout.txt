@@ -1,0 +1,32 @@
+Shopping Cart and Checkout Requirements Specification
+======================================================
+
+1. Maximum Items Per Cart: The shopping cart can hold a maximum of 99 items. Attempts to add more items will display an error message.
+
+2. Minimum Item Quantity: Each item in the cart must have a minimum quantity of 1. Users cannot add items with zero or negative quantities.
+
+3. Item Price Updates: If an item's price changes while it's in the cart, the cart must reflect the new price before checkout.
+
+4. Tax Calculation: A 10% tax will be automatically applied to the subtotal during checkout. Tax is calculated on the subtotal before shipping.
+
+5. Shipping Cost: Free shipping is applied for orders over $100. Orders under $100 have a flat $5 shipping fee.
+
+6. Discount Codes: Users can apply promotional discount codes at checkout. Each order can have maximum 1 active discount code.
+
+7. Payment Methods: The system accepts Visa, Mastercard, and American Express credit cards. PayPal integration is also supported.
+
+8. Cart Persistence: Shopping carts are saved and persistent for 30 days. Users can resume shopping from their saved cart.
+
+9. Stock Verification: Before checkout completes, the system must verify that all items have sufficient inventory. Out-of-stock items are removed from cart.
+
+10. Quantity Limits Per Item: Individual items cannot exceed 10 units per order to prevent bulk abuse. Users receive a notification if they exceed this limit.
+
+11. Order Summary Display: The checkout page must display: subtotal, tax amount, shipping cost, discount amount, and final total.
+
+12. Email Confirmation: After successful checkout, a confirmation email is sent to the user with order number, items, and tracking information.
+
+13. Cart Abandonment: If a cart is abandoned for more than 72 hours, a reminder email is automatically sent to encourage completion.
+
+14. Currency Support: The checkout system supports USD, EUR, GBP, and CAD currencies with real-time exchange rates.
+
+15. Refund Policy: Items can be refunded within 30 days of purchase if returned unused. Refunds are processed within 5-7 business days to the original payment method.

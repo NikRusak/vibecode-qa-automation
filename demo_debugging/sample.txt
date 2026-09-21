@@ -1,0 +1,4 @@
+This is a sample text file.
+It contains plain text content, not image data.
+This file will cause an error when processed by broken_image_processor.py
+because PIL expects binary image data, not text.
